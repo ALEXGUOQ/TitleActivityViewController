@@ -13,6 +13,7 @@
 		FBD823611B05BE4F006DCBFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD823601B05BE4F006DCBFD /* Images.xcassets */; };
 		FBD823641B05BE4F006DCBFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD823621B05BE4F006DCBFD /* LaunchScreen.xib */; };
 		FBD823701B05BE4F006DCBFD /* TitleActivityViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8236F1B05BE4F006DCBFD /* TitleActivityViewControllerTests.swift */; };
+		FBD8237A1B05BE58006DCBFD /* TitleActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD823791B05BE58006DCBFD /* TitleActivityController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FBD823691B05BE4F006DCBFD /* TitleActivityViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitleActivityViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD8236E1B05BE4F006DCBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD8236F1B05BE4F006DCBFD /* TitleActivityViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleActivityViewControllerTests.swift; sourceTree = "<group>"; };
+		FBD823791B05BE58006DCBFD /* TitleActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleActivityController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		FBD8234B1B05BE4E006DCBFD = {
 			isa = PBXGroup;
 			children = (
+				FBD823791B05BE58006DCBFD /* TitleActivityController.swift */,
 				FBD823561B05BE4E006DCBFD /* TitleActivityViewController */,
 				FBD8236C1B05BE4F006DCBFD /* TitleActivityViewControllerTests */,
 				FBD823551B05BE4E006DCBFD /* Products */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD8235C1B05BE4E006DCBFD /* ViewController.swift in Sources */,
+				FBD8237A1B05BE58006DCBFD /* TitleActivityController.swift in Sources */,
 				FBD8235A1B05BE4E006DCBFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TitleActivityViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TitleActivityViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

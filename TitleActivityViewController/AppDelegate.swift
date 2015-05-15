@@ -3,7 +3,7 @@
 //  TitleActivityViewController
 //
 //  Created by Jonny on 15/5/15.
-//  Copyright (c) 2015年 Jonny. All rights reserved.
+//  Copyright (c) 2015 Jonny. All rights reserved.
 //
 
 import UIKit
