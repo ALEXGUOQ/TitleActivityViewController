@@ -1,5 +1,5 @@
 # TitleActivityViewController
-iOS system provided share sheet with custom title. Inspired by the [an0/WLActivityViewController](https://github.com/an0/WLActivityViewController) (Objective-C version). It provides you a chance to use pure Swift alternation in your next app.
+iOS system provided share sheet with custom title. Inspired by the [an0/WLActivityViewController](https://github.com/an0/WLActivityViewController) (Objective-C version).
 
 ## Usage
 - 1. Drag TitleActivityViewController.swift into your project;
