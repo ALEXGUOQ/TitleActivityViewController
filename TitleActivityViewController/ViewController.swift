@@ -20,10 +20,10 @@ class ViewController: UIViewController {
         tavc.title = title
         
         // option 2
-//        tavc.setTitle("Title")
+        // tavc.setTitle("Title")
         
         // option 3
-//        tavc.setTitle("Title", font: UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline), numberOfLines: 3, textAlignment: NSTextAlignment.Left)
+        // tavc.setTitle("Title", font: UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline), numberOfLines: 3, textAlignment: NSTextAlignment.Left)
         
         tavc.popoverPresentationController?.barButtonItem = sender
         
