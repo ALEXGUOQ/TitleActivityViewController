@@ -12,6 +12,10 @@ tavc.title = title
 // tavc.setTitle("Title")
 // option 3
 // tavc.setTitle("Title", font: UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline), numberOfLines: 3, textAlignment: NSTextAlignment.Left)
+
+tavc.popoverPresentationController?.barButtonItem = sender
+        
+presentViewController(tavc, animated: true, completion: nil)
 ```
 
 ## Requirements
