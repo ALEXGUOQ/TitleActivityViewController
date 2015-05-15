@@ -13,7 +13,7 @@ tavc.title = title
 
 // option 3
 // tavc.setTitle("Title", font: UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline), numberOfLines: 3, textAlignment: NSTextAlignment.Left)
-```swift
+```
 
 ## Requirements
 - iOS 8.0+
